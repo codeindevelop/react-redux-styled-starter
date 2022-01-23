@@ -1,5 +1,5 @@
 const initialState = {
-  direction: "",
+  direction: "rtl",
   darkTheme: false,
 };
 
