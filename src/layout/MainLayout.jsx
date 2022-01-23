@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 
+
 export default function MainLayout({ children }) {
   const direction = useSelector((state) => state.layout.config.direction);
   useEffect(() => {

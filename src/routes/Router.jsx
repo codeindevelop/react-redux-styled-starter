@@ -16,7 +16,7 @@ export default function Router() {
   return (
     <>
       {/* Main Layout */}
-      <MainLayout>
+      <MainLayout  >
         <PublicRoutes />
 
         {/* If user is authenticated can access to private routes */}
