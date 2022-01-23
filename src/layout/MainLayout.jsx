@@ -1,5 +1,10 @@
-import React from 'react';
-
-export default function MainLayout() {
-  return <div></div>;
+import React from "react";
+import Header from "./Header/Header";
+export default function MainLayout({ children }) {
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
 }
